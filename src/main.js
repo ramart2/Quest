@@ -34,5 +34,6 @@ new Vue({
       messagingSenderId: "669148979297"
     };
     firebase.initializeApp(config);
+    this.$store.dispatch('getTests')
   }
 })
